@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="400.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shop.RegistrierungController">
+   <children>
+      <Text layoutX="25.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nickname">
+         <font>
+            <Font name="Droid Sans" size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="benutzername" layoutX="178.0" layoutY="110.0" />
+      <Button fx:id="Registbtn" layoutX="243.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleRegBtnAction" text="Registrieren" />
+      <Text layoutX="25.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Passwort">
+         <font>
+            <Font name="Droid Sans" size="15.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="passwort" layoutX="178.0" layoutY="188.0" />
+      <Label fx:id="RegLabel" layoutX="58.0" layoutY="14.0" text="Herzlich Wilkommen zur Registrierung!">
+         <font>
+            <Font name="Droid Sans" size="15.0" />
+         </font>
+      </Label>
+   </children>
+   
+</AnchorPane>

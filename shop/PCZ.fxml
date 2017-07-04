@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shop.ShopMainController">
+    <children>
+      <ScrollPane fx:id="PCZPane" layoutX="168.0" layoutY="32.0" prefHeight="336.0" prefWidth="424.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="660.0" prefWidth="400.0">
+               <children>
+                   <ImageView fx:id="image1" fitHeight="150.0" fitWidth="170.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                       <image> 
+                           <Image url="img/01.jpg" />
+                       </image>
+                   </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="170.0" layoutX="210.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image> 
+                           <Image url="img/02.jpg" />
+                       </image>
+                   </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="170.0" layoutX="14.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+                     <image> 
+                           <Image url="img/03.jpg" />
+                       </image>
+                   </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="170.0" layoutX="210.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+                     <image> 
+                           <Image url="img/04.jpg" />
+                       </image>
+                   </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="170.0" layoutX="213.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+                     <image> 
+                           <Image url="img/05.jpg" />
+                       </image>
+                   </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="170.0" layoutX="14.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+                     <image> 
+                           <Image url="img/06.jpg" />
+                       </image>
+                   </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="170.0" layoutX="213.0" layoutY="489.0" pickOnBounds="true" preserveRatio="true">
+                     <image> 
+                           <Image url="img/07.png" />
+                       </image>
+                   </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="170.0" layoutX="14.0" layoutY="489.0" pickOnBounds="true" preserveRatio="true">
+                     <image> 
+                           <Image url="img/08.jpg" />
+                       </image>
+                   </ImageView>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button fx:id="EinkWag" blendMode="DIFFERENCE" layoutX="33.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleButtonEinkAction" prefHeight="25.0" prefWidth="124.0" text="Einkaufswagen" />
+      <Button fx:id="Kasse" blendMode="DIFFERENCE" layoutX="33.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleButtonKasseAction" prefHeight="25.0" prefWidth="124.0" text="Kasse" />
+      <Button fx:id="PCZ" blendMode="DIFFERENCE" layoutX="33.0" layoutY="106.0" mnemonicParsing="false" onAction="#handleButtonPCZAction" prefHeight="25.0" prefWidth="124.0" text="PCs &amp;  Zubehör">
+         <font>
+            <Font name="Droid Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="Buecher" blendMode="DIFFERENCE" layoutX="33.0" layoutY="74.0" mnemonicParsing="false" onAction="#handleButtonBuchAction" prefHeight="25.0" prefWidth="124.0" text="Bücher">
+         <font>
+            <Font name="Droid Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="Moebel" blendMode="DIFFERENCE" layoutX="33.0" layoutY="140.0" mnemonicParsing="false" onAction="#handleButtonMoebelAction" prefHeight="25.0" prefWidth="124.0" text="Möbel">
+         <font>
+            <Font name="Droid Sans" size="12.0" />
+         </font>
+      </Button>
+      <Text fontSmoothingType="LCD" layoutX="52.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kategorien">
+         <font>
+            <Font name="Droid Sans" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
